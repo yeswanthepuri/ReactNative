@@ -1,0 +1,87 @@
+# Node.js dependencies
+**/node_modules/
+**/npm-debug.log
+**/yarn-error.log
+**/package-lock.json
+**/yarn.lock
+
+# macOS system files
+**/.DS_Store
+
+# React Native Packager
+**/__packager_bundler_status
+**/*.log
+**/*.tlog
+**/.expo/
+**/.expo-shared/
+
+# Expo files
+**/.expo/
+**/web-build/
+
+# Build directories
+**/android/app/build/
+**/ios/Pods/
+**/ios/build/
+**/ios/DerivedData/
+**/ios/*.xcodeproj/*
+!**/ios/*.xcodeproj/project.pbxproj
+
+# IntelliJ/IDEA files
+**/.idea/
+**/*.iml
+
+# Xcode files
+**/xcuserdata/
+**/*.xcuserstate
+**/*.xcworkspace
+**/ios/Podfile.lock
+**/ios/Pods/
+**/ios/build/
+**/ios/DerivedData/
+**/ios/*.xcodeproj/project.xcworkspace/
+**/ios/*.xcodeproj/xcuserdata/
+
+# Android files
+**/android/
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+**/android/.idea/
+**/android/local.properties
+**/android/.gradle/
+**/android/.idea/caches/
+**/android/.idea/libraries/
+**/android/.idea/modules.xml
+**/android/.idea/workspace.xml
+**/android/.DS_Store
+**/android/captures/
+**/android/gradle.properties
+**/android/gradlew
+**/android/gradlew.bat
+**/android/settings.gradle
+
+# Buck files
+**/buck-out/
+**/\.buckd/
+**/*.keystore
+**/.yarn/cache
+# Fastlane
+**/ios/fastlane/
+**/android/fastlane/
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+
+# NPM
+**/package-lock.json
+
+# Miscellaneous
+**/*.swp
+**/*.swo
+**/*.swn
+**/*~
+
+# Temporary files
+**/tmp/
+**/temp/
